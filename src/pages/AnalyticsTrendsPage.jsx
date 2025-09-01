@@ -17,8 +17,8 @@ import Sidebar from "@/components/ui/Sidebar"
 import AccountButton from "@/components/AccountButton";
 
 // --- Config
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || "http://localhost:5000"
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api"
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || "https://senti.campusreveal.in"
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://senti.campusreveal.in/api/"
 
 // ✅ Axios setup
 const api = axios.create({
